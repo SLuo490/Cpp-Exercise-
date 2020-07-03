@@ -14,8 +14,6 @@ int main() {
     int number_grade;
     cout << "Enter your grade (0-100): ";
     cin >> number_grade;
-    
-    //Every interval of 10, the letter grade changes
    
     /*
     100-90 = A
