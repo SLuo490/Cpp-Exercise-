@@ -43,8 +43,6 @@ int main() {
             cout << "Gatorade" << endl;
     }
     
-    
-    //edge cases:
     /*
     if choices is other besides 1-5
     print error
