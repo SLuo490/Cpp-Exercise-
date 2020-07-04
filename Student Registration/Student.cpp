@@ -83,7 +83,7 @@ string Student::get_f_name() {
 
 //view student profile
 void Student::view_profile() {
-    cout << "Student First and Last Name: " << get_f_name() << get_l_name() << endl;
+    cout << "Student First and Last Name: " << get_f_name() << " " << get_l_name() << endl;
     cout << "Student Date of Birth: " << get_DOB() << endl;
     cout << "Student Grade: " << get_grade() << endl;
     cout << "Student Age: " << get_age() << endl;
