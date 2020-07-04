@@ -70,28 +70,28 @@ public:
 };
 
 //get student info
-string Student:: get_l_name () {
+string Student::get_l_name () {
     return Last_name;
 }
-string Student:: get_DOB () {
+string Student::get_DOB () {
     return Date_of_Birth;
 }
-string Student:: get_grade_level() {
+string Student::get_grade_level() {
     return grade_level;
 }
-int Student:: get_age () {
+int Student::get_age () {
     return age;
 }
-int Student:: get_grad_year() {
+int Student::get_grad_year() {
     return graduation_year;
 }
 string Student::get_f_name() {
     return First_name;
 }
-double Student:: get_GPA() {
+double Student::get_GPA() {
     return GPA;
 }
-string Student:: get_school_name() {
+string Student::get_school_name() {
     return school_name;
 }
 
