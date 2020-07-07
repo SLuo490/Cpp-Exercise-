@@ -6,7 +6,6 @@
 //
 
 #include <iostream>
-#include <string>
 using namespace std;
 
 class Student {
@@ -27,18 +26,42 @@ public:
 
     //initalizing the constructor
     Student(string First_name, string Last_name, string Date_of_Birth, string grade_level, string school_name, int age, int graduation_year, double GPA)
-    :First_name(First_name), Last_name(Last_name), Date_of_Birth(Date_of_Birth), grade_level(grade_level), school_name(school_name), age(age), graduation_year(graduation_year), GPA (GPA)
-    {}
+    {
+        this->First_name = First_name;
+        this->Last_name = Last_name;
+        this->Date_of_Birth = Date_of_Birth;
+        this->grade_level = grade_level;
+        this->school_name = school_name;
+        this->age = age;
+        this->graduation_year = graduation_year;
+        this->GPA = GPA;
+    }
 
     //get student info
-    string get_f_name ();
-    string get_l_name ();
-    string get_DOB ();
-    string get_grade_level();
-    string get_school_name();
-    int get_age ();
-    int get_grad_year();
-    double get_GPA();
+    string get_f_name () {
+        return First_name;
+    }
+    string get_l_name () {
+        return Last_name;
+    }
+    string get_DOB () {
+        return Date_of_Birth;
+    }
+    string get_grade_level() {
+        return grade_level;
+    }
+    string get_school_name() {
+        return school_name;
+    }
+    int get_age () {
+        return age;
+    }
+    int get_grad_year() {
+        return graduation_year;
+    }
+    double get_GPA() {
+        return GPA;
+    }
 
     //Set Student Info
     void set_first_name (string input_First_Name) {
@@ -69,32 +92,6 @@ public:
     //Show Student Profile
     void view_profile();
 };
-
-//get student info
-string Student::get_l_name () {
-    return Last_name;
-}
-string Student::get_DOB () {
-    return Date_of_Birth;
-}
-string Student::get_grade_level() {
-    return grade_level;
-}
-int Student::get_age () {
-    return age;
-}
-int Student::get_grad_year() {
-    return graduation_year;
-}
-string Student::get_f_name() {
-    return First_name;
-}
-double Student::get_GPA() {
-    return GPA;
-}
-string Student::get_school_name() {
-    return school_name;
-}
 
 //view student profile
 void Student::view_profile() {
