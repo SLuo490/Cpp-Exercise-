@@ -90,20 +90,16 @@ public:
     }
 
     //Show Student Profile
-    void view_profile();
+    void view_profile() {
+        cout << "Student First and Last Name: " << get_f_name() << " " <<get_l_name() << endl;
+        cout << "Student Date of Birth: " << get_DOB() << endl;
+        cout << "Student Age: " << get_age() << endl;
+        cout << "Student School: " << get_school_name() << endl;
+        cout << "Student Grade: " << get_grade_level() << endl;
+        cout << "Student Graduation Year: " << get_grad_year() << endl;
+        cout << "Student GPA: " << get_GPA() << endl;
+    }
 };
-
-//view student profile
-void Student::view_profile() {
-    cout << "Student First and Last Name: " << get_f_name() << " " <<get_l_name() << endl;
-    cout << "Student Date of Birth: " << get_DOB() << endl;
-    cout << "Student Age: " << get_age() << endl;
-    cout << "Student School: " << get_school_name() << endl;
-    cout << "Student Grade: " << get_grade_level() << endl;
-    cout << "Student Graduation Year: " << get_grad_year() << endl;
-    cout << "Student GPA: " << get_GPA() << endl;
-}
-
 
 int main() {
     
