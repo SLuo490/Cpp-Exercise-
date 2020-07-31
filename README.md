@@ -5,3 +5,6 @@ A collection of Exercises
 - Grading Program
 - Student Registration
 - Character/Letter Replacer
+- Defang Ip Address
+- Find Max Consecutive Ones
+- Balanced String
