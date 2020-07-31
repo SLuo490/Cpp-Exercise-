@@ -1,5 +1,5 @@
-# Personal_Projects
-A collection of Personal Projects
+# CPP Exercises
+A collection of Exercises
 
 - Cola Machine Program
 - Grading Program
