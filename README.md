@@ -9,3 +9,4 @@ A collection of Exercises
 - Find Max Consecutive Ones
 - Balanced String
 - Duplicate Zero
+
