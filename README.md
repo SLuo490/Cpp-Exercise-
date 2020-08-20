@@ -8,3 +8,4 @@ A collection of Exercises
 - Defang Ip Address
 - Find Max Consecutive Ones
 - Balanced String
+- Duplicate Zero
